@@ -19,7 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 
 navigation merupakan sebuah proses menavigasi halaman menuju page yang ingin dituju contoh dari page 1 → page 2 routing aplikasi menjadi multi page. konsep navigation sepeti tumpukan.
 
-foto
+![Capture4](https://github.com/appworkspaceRM/widget-navigation/assets/135511281/c48f4584-56b5-4e9e-b804-5b00a824434f)
 
 terdapat 2 konsep yaitu push untuk menumpuk sebuah layar dan pop untuk memcahkan layar atau mencabut layer paling atas. push terdapat 2 konsep yaitu push atau push replacement.
 
@@ -57,6 +57,7 @@ terdapat 2 konsep yaitu push untuk menumpuk sebuah layar dan pop untuk memcahkan
       }
     }
     ```
+    ![konsep push](https://github.com/appworkspaceRM/widget-navigation/assets/135511281/d0183b77-f58a-4da2-8fa3-201ab135c54e)
 
     - Push Replacement
     
@@ -98,6 +99,8 @@ terdapat 2 konsep yaitu push untuk menumpuk sebuah layar dan pop untuk memcahkan
       }
     }
     ```
+    ![konep pop](https://github.com/appworkspaceRM/widget-navigation/assets/135511281/4236fa33-33eb-4e1c-a361-8065adac2dcd)
+
 
 ```dart
 import 'package:flutter/material.dart';
@@ -128,3 +131,5 @@ class MyNavigation extends StatelessWidget {
 }
 
 ```
+
+![navigation](https://github.com/appworkspaceRM/widget-navigation/assets/135511281/88a273c0-476a-4784-a4d2-9eb0bf5b09d3)
